@@ -1,4 +1,4 @@
-git clone 
+git clone https://github.com/Baskearavind/flaskport.git
 
 cd flaskport
 
