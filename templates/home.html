@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Home | My Portfolio{% endblock %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>Hello, I'm [Your Name]</h1>
+        <p class="hero-subtitle">A passionate <strong>[Your Role]</strong> who loves building web applications and solving problems.</p>
+        <a href="{{ url_for('projects') }}" class="btn-cta">View My Projects</a>
+    </div>
+</section>
+
+<!-- About Preview -->
+<div class="home">
+    <p>Welcome to my personal portfolio website! I'm a <strong>[Your Role]</strong> with a passion for <strong>[e.g., web development, data science, UI/UX design]</strong>.</p>
+
+    <p>Feel free to browse through my <a href="{{ url_for('projects') }}">projects</a>, learn more <a href="{{ url_for('about') }}">about me</a>, or <a href="{{ url_for('contact') }}">get in touch</a>.</p>
+
+    <div style="margin-top: 2rem;">
+        <img src="{{ url_for('static', filename='profile.jpg') }}" alt="Profile Photo" style="max-width: 200px; border-radius: 50%;">
+    </div>
+</div>
+{% endblock %}

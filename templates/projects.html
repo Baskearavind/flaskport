@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}Projects | My Portfolio{% endblock %}
+
+{% block content %}
+<h1>My Projects</h1>
+<p>Here are some of the projects I’ve worked on recently. Click on any to learn more.</p>
+
+<div class="projects">
+    <!-- Example project card -->
+    <div class="project">
+        <h2>Project One</h2>
+        <img src="{{ url_for('static', filename='project1.jpg') }}" alt="Screenshot of Project One">
+        <p>A web app that allows users to track their daily habits. Built with Flask, SQLite, and Bootstrap.</p>
+        <a href="https://github.com/yourusername/project-one" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project">
+        <h2>Project Two</h2>
+        <img src="{{ url_for('static', filename='project2.jpg') }}" alt="Screenshot of Project Two">
+        <p>An AI-powered chatbot built using Python and OpenAI's API, deployed with Flask on Render.</p>
+        <a href="https://github.com/yourusername/project-two" target="_blank">View on GitHub</a>
+    </div>
+
+    <div class="project">
+        <h2>Project Three</h2>
+        <img src="{{ url_for('static', filename='project3.jpg') }}" alt="Screenshot of Project Three">
+        <p>Personal blog platform built with Flask and Markdown support. Users can post and edit their blogs.</p>
+        <a href="https://github.com/yourusername/project-three" target="_blank">View on GitHub</a>
+    </div>
+</div>
+{% endblock %}

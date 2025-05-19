@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Habit Tracker App",
+    "image": "project1.jpg",
+    "description": "A web application for tracking daily habits and visualizing progress. Built with Flask and SQLite.",
+    "link": "https://github.com/yourusername/habit-tracker"
+  },
+  {
+    "title": "AI Chatbot",
+    "image": "project2.jpg",
+    "description": "A conversational chatbot powered by OpenAI's GPT API and deployed with Flask.",
+    "link": "https://github.com/yourusername/ai-chatbot"
+  },
+  {
+    "title": "Portfolio Website",
+    "image": "project3.jpg",
+    "description": "My personal portfolio website built with Flask, HTML/CSS, and hosted on Render.",
+    "link": "https://github.com/yourusername/portfolio-website"
+  }
+]
